@@ -8,8 +8,8 @@ public class Solution {
         }
         System.out.println(reverse(str));
     }
-    static StringBuffer reverse(String str){
-        StringBuffer sb = new StringBuffer(str);
+    static StringBuilder reverse(String str){
+        StringBuilder sb = new StringBuilder(str);
         return sb.reverse();
     }    
 }

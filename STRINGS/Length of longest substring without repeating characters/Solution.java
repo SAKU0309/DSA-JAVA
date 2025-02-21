@@ -1,7 +1,6 @@
 //https://leetcode.com/problems/longest-substring-without-repeating-characters/description/
 /* Using sliding window method */
 
-import java.util.ArrayList;
 import java.util.*;
 public class Solution{
     public static void main(String[] args){
@@ -12,7 +11,7 @@ public class Solution{
         int start=0;
         int end=0;
         int max_length=0;
-        List<Character> list = new ArrayList<Character>();
+        List<Character> list = new ArrayList<>();
         while(end<s.length()){
             if(!list.contains(s.charAt(end))){
                 list.add(s.charAt(end));
