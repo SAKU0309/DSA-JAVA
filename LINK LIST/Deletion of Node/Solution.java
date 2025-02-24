@@ -44,8 +44,8 @@ public class Solution {
             prev = temp;
             temp=temp.next;
         }
-        if(temp!=null){
-            prev.next=temp.next;
+        if (temp != null) {
+            prev.next = temp.next;
         }
         else{
             System.out.println("data not found");
